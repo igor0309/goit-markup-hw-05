@@ -222,8 +222,14 @@ a {
 }
 
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.subscribe-btn:hover,
+.subscribe-btn:focus,
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: #404bbf;
+  border: none;
+  outline: none;
 }
 
 .future-section {
