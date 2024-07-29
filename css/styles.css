@@ -14,7 +14,6 @@ body {
 }
 
 p {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -27,6 +26,8 @@ input {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
 }
 
 ul,
@@ -47,6 +48,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -309,6 +312,8 @@ a {
 .social-network-link:hover,
 .social-network-link:focus {
   background-color: #404bbf;
+  border: none;
+  outline: none;
 }
 
 .portfolio-section {
